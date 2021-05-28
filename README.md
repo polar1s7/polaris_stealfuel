@@ -15,4 +15,4 @@ Dependencies :
 
 
 ![Preview](https://i.imgur.com/TQtsyZ0.jpg)
-![usage](https://imgur.com/58910a70-e740-4e14-91cb-43ffb12b322b)
+![usage](https://i.imgur.com/138jCnW.jpg)
