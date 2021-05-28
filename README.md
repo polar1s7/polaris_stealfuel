@@ -12,3 +12,7 @@ Dependencies :
 - [progressBars](https://forum.cfx.re/t/release-progress-bars-1-0-standalone/)
 - [mb_notify](https://github.com/jetpnix/mb_notify)
 - [LegacyFuel](https://github.com/InZidiuZ/LegacyFuel)
+
+
+![Preview](https://i.imgur.com/TQtsyZ0.jpg)
+![usage](https://imgur.com/58910a70-e740-4e14-91cb-43ffb12b322b)
