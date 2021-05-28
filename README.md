@@ -6,7 +6,7 @@ __I'm so lazy to add more shits on Config__
 
 Spaghetti code ahead.
 
-It only uses 0.01 of your CPU normally.
+It only uses 0.02 of your CPU normally.
 
 Dependencies : 
 - [progressBars](https://forum.cfx.re/t/release-progress-bars-1-0-standalone/)
@@ -15,4 +15,5 @@ Dependencies :
 
 
 ![Preview](https://i.imgur.com/TQtsyZ0.jpg)
+- Usage !
 ![usage](https://i.imgur.com/138jCnW.jpg)
