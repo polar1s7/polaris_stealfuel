@@ -51,6 +51,7 @@ RegisterCommand('stealfuel', function(source)
 							TriggerServerEvent("polaris_fuelsteal:giveitem", "weapon_petrolcan", math.floor(fuelLevel))
 							exports["LegacyFuel"]:SetFuel(VehicleInFront(), 0)
 							exports['mb_notify']:sendNotification('You successfully stole the fuel.')
+							SetCurrentPedWeapon(PlayerPedId(), "WEAPON_PETROLCAN", true)
 							ClearPedTasks(PlayerPedId())
 						else
 							exports['mb_notify']:sendNotification('You don\'t have bread.')
@@ -71,14 +72,14 @@ RegisterCommand('stealfuel', function(source)
 	end
 end)
 
-
+-- Just to check the fuel
 RegisterCommand('fuel', function(source)
 	local fuelLevel = exports["LegacyFuel"]:GetFuel(VehicleInFront())
 	print(math.floor(fuelLevel))
 end)
 
-
-function playanimation(ped, dic, anim)
+--
+function playanimaton(ped, dic, anim)
 	ESX.Streaming.RequestAnimDict(dic, function()
 		TaskPlayAnim(ped, dic, anim, 8.0, -8.0, -1, 0, 0, 0, 0, 0)
 	end)
